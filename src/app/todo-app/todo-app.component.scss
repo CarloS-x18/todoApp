@@ -1,0 +1,42 @@
+.alert {
+  margin: 0 auto;
+}
+
+.task-card {
+  padding: 15px 20px;
+  background-color: #343a40;
+  border-radius: 5px;
+
+  p {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .task-card__buttons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+}
+
+.tasks-complete {
+
+  h2 {
+    text-align: center;
+    color: #69f0af8e;
+  }
+
+  .task-complete {
+
+    .text {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: end;
+    }
+  }
+}
